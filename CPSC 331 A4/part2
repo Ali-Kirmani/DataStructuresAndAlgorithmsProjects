@@ -1,0 +1,49 @@
+import java.util.LinkedList;
+import java.util.ArrayList;
+
+public class part2 {
+
+    private static int hashTableSize = 9973;
+    private ArrayList hashtable;
+
+
+    // hash table
+
+    public void hashTable() {
+
+        hashtable = new ArrayList<>(hashTableSize);
+        for(int i = 0; i < hashTableSize; i++) {
+            hashtable.add(new LinkedList<>());
+        }
+
+    }
+
+    public boolean hashSearch() {
+        int key = 0;
+        int index = hash(key); 
+
+        LinkedList<Integer> list = (LinkedList<Integer>) hashtable.get(index);
+
+        for(int i : list) {
+            if(i == key) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+
+
+    // hashtable for chaining
+
+    private static int hash(int x) {
+
+        x = ((x >>> 16)^x) * 0x45d9f3b;
+        x = ((x >>> 16)^x) * 0x45d9f3b;
+        x = (x >>> 16) ^ x;
+
+        return Math.abs(x)%hashTableSize;
+    }
+
+}

@@ -1,0 +1,9 @@
+Dijkstra Density:1 It took 234400 nanoseconds	Floyd Density:1 It took 60200 nanoseconds
+Dijkstra Density:2 It took 173000 nanoseconds	Floyd Density:2 It took 58300 nanoseconds
+Dijkstra Density:3 It took 273500 nanoseconds	Floyd Density:3 It took 62100 nanoseconds
+Dijkstra Density:4 It took 242800 nanoseconds	Floyd Density:4 It took 61100 nanoseconds
+Dijkstra Density:5 It took 307500 nanoseconds	Floyd Density:5 It took 67100 nanoseconds
+Dijkstra Density:6 It took 328200 nanoseconds	Floyd Density:6 It took 73000 nanoseconds
+Dijkstra Density:7 It took 320300 nanoseconds	Floyd Density:7 It took 66400 nanoseconds
+Dijkstra Density:8 It took 347500 nanoseconds	Floyd Density:8 It took 70500 nanoseconds
+Dijkstra Density:9 It took 321100 nanoseconds	Floyd Density:9 It took 65600 nanoseconds
